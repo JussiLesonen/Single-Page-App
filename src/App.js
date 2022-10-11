@@ -18,10 +18,10 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='contactus' element={<ContactUs />} />
-          <Route path='*' element={<NotFound/>} />
+          <Route path='*' element={<NotFound />} />
         </Routes>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 }
